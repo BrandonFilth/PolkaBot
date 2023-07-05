@@ -1,4 +1,4 @@
-# Bot de Telegram para consultar saldos de Polkadot y Kusama
+# Bot de Telegram para extraer datos de Polkadot y Kusama
 
 Este bot de Telegram te permite consultar los saldos de las criptomonedas Polkadot (DOT) y Kusama (KSM) en tiempo real.
 
