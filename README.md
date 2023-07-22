@@ -28,9 +28,41 @@ El bot admite los siguientes comandos:
 
 3. El bot te mostrará el saldo, el precio y la información detallada del token según el comando utilizado.
 
+## Librerías necesarias
+
+El bot utiliza las siguientes librerías de Python:
+
+- `telebot`: Esta librería se utiliza para interactuar con la API de Telegram y es necesaria para crear y manejar el bot de Telegram.
+
+- `requests`: Se utiliza para realizar solicitudes HTTP a las APIs de Subscan y obtener la información necesaria.
+
+## Instalación de las librerías
+
+Para instalar las librerías necesarias, puedes utilizar `pip`, el gestor de paquetes de Python. Ejecuta los siguientes comandos en tu terminal o línea de comandos:
+
+```bash
+pip install pyTelegramBotAPI
+pip install requests
+```
+## Requisitos del bot de Telegram
+
+Para utilizar el bot de Telegram, debes asegurarte de tener lo siguiente:
+
+- **Una cuenta de Telegram**: Debes tener una cuenta de Telegram para crear y administrar el bot.
+
+- **Token del bot**: Debes obtener el token de tu bot de Telegram al crearlo en el BotFather de Telegram.
+
+## Licencias
+
+Este proyecto utiliza licencias de código abierto. A continuación, se muestran las licencias de las librerías utilizadas:
+
+- `pyTelegramBotAPI`: Licencia MIT. Puedes encontrar más información en [https://github.com/eternnoir/pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI).
+
+- `requests`: Licencia Apache 2.0. Puedes encontrar más información en [https://github.com/psf/requests](https://github.com/psf/requests).
+
 ## Código fuente
 
-El bot fue desarrollado utilizando el módulo `telebot` para interactuar con la API de Telegram. Los siguientes archivos contienen el código fuente del bot:
+El bot fue desarrollado utilizando las librerías mencionadas y los siguientes archivos contienen el código fuente del bot:
 
 1. `main.py`: Contiene la configuración principal del bot y la lógica para manejar los comandos `/get_balance`, `/get_price` y `/token_info`.
 
